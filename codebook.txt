@@ -1,0 +1,252 @@
+DATA DICTIONARY
+Summary of Human Activity Recognition Using Smartphones Dataset
+
+subject
+	Subject being measured
+		1..30
+
+activity
+	Activity being measured
+		Walking
+		Walking Upstairs
+		Walking Downstairs
+		Sitting
+		Standing
+		Laying
+
+timeBodyAccmeanX
+	Mean of body acceleration signal along X axis, time domain (body component of accelerometer reading)
+	
+timeBodyAccmeanY
+	Mean of body acceleration signal  along Y axis, time domain
+	
+timeBodyAccmeanZ
+	Mean of body acceleration signal  Z axis, time domain
+
+timeGravityAccmeanX
+	Mean of gravity acceleration signal along X axis, time domain (gravity component of accelerometer reading)
+	
+timeGravityAccmeanY
+	Mean of gravity acceleration signal along Y axis, time domain
+	
+timeGravityAccmeanZ
+	Mean of gravity acceleration signal along Z axis, time domain
+
+timeBodyAccJerkmeanX
+	Mean of body linear acceleration along X axis, time domain
+	
+timeBodyAccJerkmeanY
+	Mean of body linear acceleration along Y axis, time domain
+
+timeBodyAccJerkmeanZ
+	Mean of body linear acceleration along Z axis, time domain
+
+timeBodyGyromeanX
+	Mean of body gyroscope along X axis, time domain
+
+timeBodyGyromeanY
+	Mean of body gyroscope along Y axis, time domain
+
+timeBodyGyromeanZ
+	Mean of body gyroscope along Z axis, time domain
+
+timeBodyGyroJerkmeanX
+	Mean of body angular velocity along X axis, time domain
+
+timeBodyGyroJerkmeanY
+	Mean of body angular velocity along Z axis, time domain
+
+timeBodyGyroJerkmeanZ
+	Mean of body angular velocity along X axis, time domain
+
+timeBodyAccMagmean
+	Mean of magnitude of body acceleration, calculated using Euclidean norm, time domain
+	
+timeGravityAccMagmean
+	Mean of magnitude of gravity acceleration, calculated using Euclidean norm, time domain
+	
+timeBodyAccJerkMagmean
+	Mean of magnitude of body linear acceleration, calculated using Euclidean norm, time domain
+	
+timeBodyGyroMagmean
+	Mean of magnitude of body gyroscope, calculated using Euclidean norm, time domain
+	
+timeBodyGyroJerkMagmean
+	Mean of magnitude of angular velocity, calculated using Euclidean norm, time domain
+	
+freqBodyAccmeanX
+	Mean of frequency of body acceleration along X axis, calculated via FFT
+	
+freqBodyAccmeanY
+	Mean of frequency of body acceleration along Y axis, calculated via FFT
+
+freqBodyAccmeanZ
+	Mean of frequency of body acceleration along Z axis, calculated via FFT
+
+freqBodyAccmeanFreqX
+	Weighted average of the frequency components of body acceleration along X axis, calculated via FFT
+	
+freqBodyAccmeanFreqY
+	Weighted average of the frequency components of body acceleration along Y axis, calculated via FFT
+
+freqBodyAccmeanFreqZ
+	Weighted average of the frequency components of body acceleration along Z axis, calculated via FFT
+
+freqBodyAccJerkmeanX
+	Mean of frequency of body angular velocity along X axis, calculated via FFT
+	
+freqBodyAccJerkmeanY
+	Mean of frequency of body angular velocity along Y axis, calculated via FFT
+
+freqBodyAccJerkmeanZ
+	Mean of frequency of body angular velocity along Z axis, calculated via FFT
+
+freqBodyAccJerkmeanFreqX
+	Weighted average of the frequency components of body angular velocity along X axis, calculated via FFT
+
+freqBodyAccJerkmeanFreqY
+	Weighted average of the frequency components of body angular velocity along Y axis, calculated via FFT
+
+freqBodyAccJerkmeanFreqZ
+	Weighted average of the frequency components of body angular velocity along Z axis, calculated via FFT
+
+freqBodyGyromeanX
+	Mean of frequency of body gyroscope along X axis, calculated via FFT
+
+freqBodyGyromeanY
+	Mean of frequency of body gyroscope along Y axis, calculated via FFT
+
+freqBodyGyromeanZ
+	Mean of frequency of body gyroscope along Z axis, calculated via FFT
+
+freqBodyGyromeanFreqX
+	Weighted average of the frequency components of body gyroscope along X axis, calculated via FFT
+
+freqBodyGyromeanFreqY
+	Weighted average of the frequency components of body gyroscope along Y axis, calculated via FFT
+
+freqBodyGyromeanFreqZ
+	Weighted average of the frequency components of body gyroscope along Z axis, calculated via FFT
+
+freqBodyAccMagmean
+	Mean of frequency of magnitude of body acceleration
+
+freqBodyAccMagmeanFreq
+	Weighted average of the frequency components of magnitude of body acceleration
+
+freqBodyBodyAccJerkMagmean
+	Mean of frequency of magnitude of body acceleration, calculated using Euclidean norm
+
+freqBodyBodyAccJerkMagmeanFreq
+	Weighted average of the frequency components of magnitude of body acceleration, calculated using Euclidean norm
+
+freqBodyBodyGyroMagmean
+	Mean of frequency of magnitude of body gyroscope
+
+freqBodyBodyGyroMagmeanFreq
+	Weighted average of the frequency components of magnitude of body gyroscope
+
+freqBodyBodyGyroJerkMagmean
+	Mean of frequency of magnitude of angular velocity
+
+freqBodyBodyGyroJerkMagmeanFreq
+	Weighted average of the frequency components of magnitude of angular velocity
+
+timeBodyAccstdX
+	Standard deviation of body acceleration along X axis, time domain
+	
+timeBodyAccstdY
+	Standard deviation of body acceleration along Y axis, time domain
+
+timeBodyAccstdZ
+	Standard deviation of body acceleration along Z axis, time domain
+
+timeGravityAccstdX
+	Standard deviation of gravity acceleration along X axis, time domain
+	
+timeGravityAccstdY
+	Standard deviation of gravity acceleration along Y axis, time domain
+
+timeGravityAccstdZ
+	Standard deviation of gravity acceleration along Z axis, time domain
+
+timeBodyAccJerkstdX
+	Standard deviation of body linear acceleration along X axis, time domain
+	
+timeBodyAccJerkstdY
+	Standard deviation of body linear acceleration along Y axis, time domain
+	
+timeBodyAccJerkstdZ
+	Standard deviation of body linear acceleration along Z axis, time domain
+	
+timeBodyGyrostdX
+	Standard deviation of body gyroscope along X axis, time domain
+	
+timeBodyGyrostdY
+	Standard deviation of body gyroscope along Y axis, time domain
+	
+timeBodyGyrostdZ
+	Standard deviation of body gyroscope along Z axis, time domain
+	
+timeBodyGyroJerkstdX
+	Standard deviation of body angular velocity along X axis, time domain
+	
+timeBodyGyroJerkstdY
+	Standard deviation of body angular velocity along Y axis, time domain
+	
+timeBodyGyroJerkstdZ
+	Standard deviation of body angular velocity along Z axis, time domain
+	
+timeBodyAccMagstd
+	Standard deviation of body acceleration magnitude, time domain
+	
+timeGravityAccMagstd
+	Standard deviation of gravity acceleration magnitude, time domain
+	
+timeBodyAccJerkMagstd
+	Standard deviation of linear acceleration magnitude, time domain
+	
+timeBodyGyroMagstd
+	Standard deviation of body gyroscope magnitude, time domain
+	
+timeBodyGyroJerkMagstd
+	Standard deviation of angular velocity magnitude, time domain
+	
+freqBodyAccstdX
+	Standard deviation of body acceleration along X axis, frequency via FFT
+	
+freqBodyAccstdY
+	Standard deviation of body acceleration along Y axis, frequency via FFT
+	
+freqBodyAccstdZ
+	Standard deviation of body acceleration along Z axis, frequency via FFT
+	
+freqBodyAccJerkstdX
+	Standard deviation of body linear acceleration along X axis, frequency via FFT
+
+freqBodyAccJerkstdY
+	Standard deviation of body linear acceleration along Y axis, frequency via FFT
+
+freqBodyAccJerkstdZ
+	Standard deviation of body linear acceleration along X axis, frequency via FFT
+
+freqBodyGyrostdX
+	Standard deviation of body gyroscope along X axis, frequency via FFT
+	
+freqBodyGyrostdY
+	Standard deviation of body gyroscope along Y axis, frequency via FFT
+	
+freqBodyGyrostdZ
+	Standard deviation of body gyroscope along Z axis, frequency via FFT
+	
+freqBodyAccMagstd
+	Standard deviation of magnitude of body acceleration, frequency via FFT
+	
+freqBodyBodyAccJerkMagstd
+	Standard deviation of body linear acceleration, frequency via FFT
+	
+freqBodyBodyGyroMagstd
+	Standard deviation of body gyroscope magnitude, frequency via FFT
+	
+freqBodyBodyGyroJerkMagstd
+	Standard deviation of body angular velocity, frequency via FFT
