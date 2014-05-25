@@ -24,9 +24,10 @@ go <- function() {
     tidy <- aggregate(.~subject+activity, data=data, mean)
 
     ## Write the output to a csv file - used to create file for submission
+    ## File extension is txt because web page doesn't accept .csv extension
     ## Commented out here, because the github script is supposed to output
     ## the tidy data set, not necessarily write it to disk
-##    write.table(tidy, "UCI-HAR-Dataset-Tidy.csv", sep=",")
+##    write.table(tidy, "UCI-HAR-Dataset-Tidy.txt", sep=",")
     
     ## Output the tidy dataset
     tidy
