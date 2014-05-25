@@ -21,7 +21,12 @@ _NOTE: The instructor expresses a preference for variable names without dots, da
 8. Merge the test and train data. (As specified in step 1 in the course project instructions.)
 9. The "activity" column consists of numbers 1-6. Replace those with meaningful values like "Walking" and "Standing".  (As specified in step 3 in the course project instructions.)
 10. Calculate mean values for all the columns, grouped by subject and activity, in order to create a new, tidy data set.
+11. This step is commented out, because it's not explicitly called for in the directions - output a CSV file containing the tidy data set.
 
 ### Data dictionary
 
 More details on the data contained in the tidy output is contained in the codebook.txt file also in this repo.
+
+### Tidy output
+
+The repo also contains the output of the script, in comma-separated format: UCI-HAR-Dataset-Tidy.txt
